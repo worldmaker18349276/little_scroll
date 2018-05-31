@@ -1,0 +1,11 @@
+Type: IPython Notebook Extension
+Name: Little Scroll
+Link: README.md
+Description: Scroll down/up a little using a hotkey
+Main: main.js
+Compatibility: 4.x, 5.x
+Parameters:
+- name: littlescroll_step
+  description: step of scrolling
+  input_type: number
+  default: 200
