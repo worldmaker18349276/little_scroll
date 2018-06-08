@@ -5,7 +5,11 @@ Description: Scroll down/up a little using a hotkey
 Main: main.js
 Compatibility: 4.x, 5.x
 Parameters:
-- name: littlescroll_step
-  description: step of scrolling
+- name: LittleScroll.step
+  description: step of scrolling (page)
   input_type: number
-  default: 200
+  default: 0.3
+- name: LittleScroll.step_in_edit
+  description: step of scrolling in edit mode (pixel)
+  input_type: number
+  default: 20
